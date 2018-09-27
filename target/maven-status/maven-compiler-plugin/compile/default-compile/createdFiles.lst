@@ -1,0 +1,8 @@
+Models\Members.class
+Models\JsonModel.class
+Models\Message.class
+WebSocket\ChatEndpoint.class
+Models\EncodersAndDecoder\MessageDecoder.class
+Models\EncodersAndDecoder\MessageEncoder.class
+Models\EncodersAndDecoder\MessageDecoder$1.class
+Models\EncodersAndDecoder\MembersEncoder.class

@@ -1,0 +1,49 @@
+<html>
+<!--<script-->
+<!--src="https://code.jquery.com/jquery-3.3.1.slim.min.js"-->
+<!--integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="-->
+<!--crossorigin="anonymous"></script>-->
+<link href="style.css" rel="stylesheet">
+<head>
+    <title>Chat</title>
+</head>
+<style>
+
+</style>
+<body>
+
+<div class="tableAndCheckbox">
+    <table>
+        <tr>
+            <td colspan="2">
+                <input type="text" id="username" placeholder="Username"/>
+                <button type="button" onclick="connect();">Connect</button>
+            </td>
+        </tr>
+        <tr>
+
+            <td>
+                <textarea readonly="true" rows="10" cols="80" id="log"></textarea>
+            </td>
+
+
+        </tr>
+        <tr>
+            <td>
+                <input type="text" size="51" id="msg" placeholder="Message"/>
+                <button type="button" onclick="send();">Send</button>
+            </td>
+        </tr>
+    </table>
+    <div class="checkboxDiv">
+        <!--<div class="checkboxAndUser">-->
+            <!--<div class="Name">Name</div>-->
+            <!--<input class="source" type="checkbox" name="type" value="1"/>-->
+        <!--</div>-->
+    </div>
+</div>
+</body>
+
+<script src="websocket.js"></script>
+
+</html>
