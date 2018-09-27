@@ -10,6 +10,7 @@ private ArrayList<String> list;
     }
 
     public ArrayList<String> getList() {
+        System.out.println("test");
         return list;
     }
 
